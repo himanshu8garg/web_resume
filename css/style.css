@@ -1,0 +1,236 @@
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3, {
+  padding:5px,5px,5px,5px;
+  margin:0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  
+
+}
+
+body{
+  background-color: black;
+}
+.clear-fix {
+  overflow: auto;
+}
+
+.education-entry,
+.work-entry,
+.project-entry,
+.community-entry {
+  padding: 0 5%;
+  font-size: 16px;
+}
+.project-entry,
+.education-entry {
+	color: white !important;	
+}
+.no-margin{
+	margin: 0;
+}
+
+
+.title{
+	float: left;
+	width: 20%;
+	
+}
+.content{
+	float: left;
+	width: 80%;
+}
+
+h1 {
+  font-size: 40px;
+
+  color: #f5a623;
+  line-height: 48px;
+  display: inline;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+ 
+  line-height: 29px;
+  padding: 10px;
+  font-style: italic;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 24px;
+  color: black !important;
+  line-height: 29px;
+  padding: 10px;
+  font-style: italic;
+}
+
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4a4a4a;
+  line-height: 17px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  padding:10px 5%;
+
+}
+
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #000;
+  line-height: 16px;
+  float: left;
+}
+	
+.location-text {
+  font-style: italic;
+  font-size: 16px;
+  color: #999;
+  line-height: 16px;
+  float: right;
+  color: black;
+
+}
+
+p {
+  font-size: 16px;
+  line-height: 21px;
+  padding-top: 10px;	
+}
+
+tw {
+
+  margin-top: 10px;
+  font-size: 20px;
+  display: block;
+  color: white;
+}
+tb {
+
+  margin-top: 10px;
+  font-size: 20px;
+  display: block;
+  color: black;
+}
+
+a {
+
+  margin-top: 10px;
+  font-size: 20px;
+  display: block;
+  color: white;
+}
+
+.welcome-message {
+  font-style: italic;
+  font-size: 18px;
+  color: #f3f3f3;
+  line-height: 28px;
+}
+
+#skills-h3 {
+  color: #f5ae23;
+  display: none;
+}
+
+.blue {
+  #background-color: #0099ff;
+  background: url("../images/background.jpg");
+  
+ }
+
+.white-text {
+  color: #fff;
+}
+
+.gray {
+  background-color: #f3f3f3;
+
+}
+.no-margin{
+  margin: 0px;
+}
+.padding-skills{
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+header{
+  background-color: #f3f3f3;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: black;
+}
+
+header .intro-text {
+  padding-top: 350px;
+  padding-bottom: 350px;
+}
+header .intro-text .intro-lead-in {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+header .intro-text .intro-heading {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+
+
+.center-content {
+  padding: 2.5% 5%;
+}
+
+ul {
+  list-style-type: square;
+}
+
+
+
+img {
+  padding: 10px;
+}
+
+span {
+  padding: 5px;
+}
+#footerContacts{
+	font-size: 24px;
+	padding-top: 10px;
+}
+
+
+
+.container {
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+}
